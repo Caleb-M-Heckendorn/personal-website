@@ -123,7 +123,7 @@
 					</div>
 			</div>
 			<!--reCaptcha-->
-			<div class="g-recaptcha" data-sitekey="6LftYG0UAAAAAHUXsmvH7Xo1PvbOIgBhqwrSzOam"></div>
+			<div class="g-recaptcha" data-sitekey="6LfXu20UAAAAAKHX1sDYBtWKMWEBnPSCK8mZDOdB"></div>
 
 			<!--Send and Reset buttons-->
 			<div class="center pb-3">
