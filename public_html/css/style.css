@@ -1,0 +1,77 @@
+.navigator{
+	background-color: #dcdcdc;
+	color: black;
+	border-radius: 5px;
+}
+.about{
+	background-color: #ffffff;
+}
+.about-header {
+	background-image: url(../images/about-header.jpg);
+	background-size: cover;
+	image-rendering: auto;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+}
+.me{
+	display: block;
+	margin: 10px auto;
+	/*max-width: 400px;*/
+	/*max-height: 400px;*/
+	border-radius: 10px;
+}
+.center{
+	text-align: center;
+}
+.portfolio{
+	background-color: rgba(199, 199, 199, 0.55);
+}
+.portfolio-header {
+	background-image: url(../images/portfolio-banner.jpg);
+	background-size: cover;
+	image-rendering: auto;
+	border-radius: 5px;
+	text-align: center;
+	color: #595959;
+}
+.caro {
+	display: block;
+	margin: 10px auto;
+}
+.carousel-text-color{
+	color: #000;
+}
+.contact{
+	background-color: #ffffff;
+}
+.contact-header {
+	background-image: url(../images/contact-banner.jpg);
+	background-size: cover;
+	image-rendering: auto;
+	border-radius: 5px;
+	text-align: center;
+	color: #595959;
+}
+.form{
+	display: block;
+	margin: 10px auto;
+}
+button{
+	background-color: #969696;
+	color: #000;
+}
+.icon i{
+	color: black;
+	font-size: 1rem;
+	padding: 0 10px;
+}
+@media (min-width: 768px) {
+	.icon i {
+		font-size: 3.5rem;
+	}
+}
+.foot2{
+	background-color: #c7c7c7;
+	color: black;
+}
