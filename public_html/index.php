@@ -135,12 +135,12 @@
 		<div class="container icon pb-3">
 			<div class="row justify-content-center center">
 					<span class="footer-link">
-						<a href="">
+						<a href="https://www.linkedin.com/in/caleb-m-heckendorn-85518b164/">
 							<i class="fab fa-linkedin"></i>
 						</a>
 					</span>
 				<span class="footer-link">
-						<a href="">
+						<a href="https://github.com/Caleb-M-Heckendorn">
 							<i class="fab fa-github-square"></i>
 						</a>
 					</span>
