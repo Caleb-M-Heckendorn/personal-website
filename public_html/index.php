@@ -24,6 +24,7 @@
 		<link rel="stylesheet" href="css/style.css">
 		<title>Caleb Heckendorn</title>
 	</head>
+
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light navigator mb-3 mt-2 ml-2 mr-2">
 			<a class="navbar-brand">Caleb Heckendorn</a>
@@ -123,8 +124,15 @@
 					</div>
 			</div>
 			<!--reCaptcha-->
-			<div class="g-recaptcha" data-sitekey="6LfXu20UAAAAAKHX1sDYBtWKMWEBnPSCK8mZDOdB"></div>
-
+			<div class="row justify-content-center">
+				<div class="g-recaptcha pb-3" data-sitekey="6LfXu20UAAAAAKHX1sDYBtWKMWEBnPSCK8mZDOdB"></div>
+			</div>
+			<!--Empty area for form error/success output-->
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="output-area"></div>
+				</div>
+			</div>
 			<!--Send and Reset buttons-->
 			<div class="center pb-3">
 				<button class="btn" type="submit">Send</button>
