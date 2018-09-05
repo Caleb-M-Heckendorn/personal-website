@@ -3,21 +3,20 @@
 	<head>
 		<!--Meta Tags-->
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 		<!--Bootstrap CSS-->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<!-- jQuery, Popper.js, Bootstrap JS -->
+		<!-- jQuery Form, Additional Methods, Validate, jQuery, Popper.js, Bootstrap JS -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
-		<!-- Google reCAPTCHA -->
-		<script src=https://www.google.com/recaptcha/api.js></script>
 		<!--Font awesome code-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 		<!--My CSS-->
@@ -88,11 +87,12 @@
 				</div>
 			</div>
 		</div>
+
 		<!--		Contact form-->
-		<form class="container-fluid contact pt-3 mw-50" id="contact">
+		<div class="container-fluid contact pt-3 mw-50">
 			<h1 class="contact-header">Contact Me</h1>
 			<div class="mx-auto mw-50">
-				<form class="form-horizontal well mw-50 form" action="php/mailer.php">
+				<form class="form-horizontal well mw-50 form" action="php/mailer.php" method="post" id="contact">
 					<div class="row justify-content-center pt-2">
 						<div class="col-md-6 col-sm-8">
 							<!--Name input--->
@@ -138,7 +138,7 @@
 				<button class="btn" type="submit">Send</button>
 				<button class="btn" type="reset">Reset</button>
 			</div>
-		</form>
+		</div>
 		<!--Icon links-->
 		<div class="container icon pb-3">
 			<div class="row justify-content-center center">
