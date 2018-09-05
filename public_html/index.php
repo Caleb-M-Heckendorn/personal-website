@@ -91,7 +91,7 @@
 		</div>
 
 		<!--		Contact form-->
-		<div class="container-fluid contact pt-3 mw-50">
+		<form class="container-fluid contact pt-3 mw-50">
 			<h1 class="contact-header">Contact Me</h1>
 			<div class="mx-auto mw-50">
 				<form class="form-horizontal well mw-50 form" action="php/mailer.php" method="post" id="contact">
@@ -134,7 +134,7 @@
 			</div>
 			<!--reCaptcha-->
 			<div class="row justify-content-center">
-				<div class="g-recaptcha pb-3" data-sitekey="6LfXu20UAAAAAKHX1sDYBtWKMWEBnPSCK8mZDOdB"></div>
+				<div class="g-recaptcha" data-sitekey="6LfXu20UAAAAAKHX1sDYBtWKMWEBnPSCK8mZDOdB"></div>
 			</div>
 			<!--Empty area for form error/success output-->
 			<div class="row">
@@ -147,7 +147,8 @@
 				<button class="btn" type="submit">Send</button>
 				<button class="btn" type="reset">Reset</button>
 			</div>
-		</div>
+		</form>
+
 		<!--Icon links-->
 		<div class="container icon pb-3">
 			<div class="row justify-content-center center">

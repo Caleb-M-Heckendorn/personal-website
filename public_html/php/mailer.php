@@ -16,6 +16,10 @@ require_once ("mail-config.php");
 
 // verify user's reCAPTCHA input
 $recaptcha = new \ReCaptcha\ReCaptcha($secret);
+var_dump($recaptcha);
+
+
+
 $resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
 
 try {
