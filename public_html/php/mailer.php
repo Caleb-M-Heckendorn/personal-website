@@ -26,7 +26,7 @@ try {
 	/**
 	 * Sanitize the inputs from the form: name, email, subject, and message.
 	 * This assumes jQuery (NOT Angular!) will be AJAX submitting the form,
-	 * so we're using the $_POST superglobal
+	 * so we're using the $_POST super global
 	 **/
 $name = filter_input(INPUT_POST, "contactFormName", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$email = filter_input(INPUT_POST, "contactFormEmail", FILTER_SANITIZE_EMAIL);

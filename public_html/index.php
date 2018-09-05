@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!--Meta Tags-->
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-		<!--Bootstrap CSS-->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<!-- jQuery Form, Additional Methods, Validate, jQuery, Popper.js, Bootstrap JS -->
+		<!--Meta Tags -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+		<!-- Link to custom CSS Sheet -->
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<!-- JQuery first, then Popper.js, then Bootstrap.js -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
-		<!-- Your JavaScript Form Validator -->
+		<!-- Javascript Form Validator -->
 		<script src="js/form-validate.js"></script>
-		<!--Font awesome code-->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-		<!--My CSS-->
-		<link rel="stylesheet" href="css/style.css">
+
 		<title>Caleb Heckendorn</title>
 	</head>
 
@@ -97,18 +99,23 @@
 						<div class="col-md-6 col-sm-8">
 							<!--Name input--->
 							<div class="form-group">
+								<label for="contactFormName"></label>
 								<div class="input-group">
 									<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 								</div>
 							</div>
 							<!--Email input-->
 							<div class="form-group">
+								<label for="contactFormEmail"></label>
+
 								<div class="input-group">
-									<input type="text" class="form-control" id="email" name="email" placeholder="Email">
+									<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 								</div>
 							</div>
 							<!--Subject  input--->
 							<div class="form-group">
+								<label for="contactFormSubject"></label>
+
 								<div class="input-group">
 									<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 								</div>
@@ -116,6 +123,8 @@
 
 							<!--Message input--->
 							<div class="form-group">
+								<label for="contactFormMessage"></label>
+
 								<div class="input-group">
 									<textarea class="form-control" name="message" id="message" rows="6" placeholder="Message"></textarea>
 								</div>
