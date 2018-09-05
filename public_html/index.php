@@ -111,14 +111,12 @@
 
 							<!--Name input-->
 							<div class="form-group">
-								<label for="name"></label>
 								<div class="input-group">
 									<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 								</div>
 							</div>
 							<!--Email input-->
 							<div class="form-group">
-								<label for="email"></label>
 								<div class="input-group">
 									<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 								</div>
@@ -126,7 +124,6 @@
 
 							<!--Subject  input-->
 							<div class="form-group">
-								<label for="subject"></label>
 								<div class="input-group">
 									<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 								</div>
@@ -135,7 +132,6 @@
 							<!--Message input-->
 							<div class="form-group">
 								<div class="input-group">
-									<label for="message"></label>
 									<textarea class="form-control" name="message" id="message" rows="6"
 												 placeholder="Message"></textarea>
 								</div>
