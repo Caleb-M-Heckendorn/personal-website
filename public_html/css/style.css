@@ -15,10 +15,7 @@
 	color: white;
 }
 .me{
-	display: block;
-	margin: 10px auto;
-	max-width: 34rem;
-	max-height: 34rem;
+	width: 31rem;
 }
 .center{
 	text-align: center;
@@ -37,6 +34,20 @@
 .caro {
 	display: block;
 	margin: 10px auto;
+}
+.carousel-caption {
+	font-size: x-small;
+}
+.caroimage {
+	width: 31rem;
+}
+@media only screen
+and (min-width : 100px)
+and (max-width : 500px) {
+	.carousel-caption {
+		font-size: .5em;
+		padding-top: 20px;
+	}
 }
 .carousel-text-color{
 	color: #000;

@@ -27,9 +27,9 @@
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<!-- Javascript Form Validator -->
 		<script src="js/form-validate.js"></script>
+		<link rel="shortcut icon" type="image/png" href="images/impossible.jpg" />
 		<title>Caleb Heckendorn</title>
 	</head>
-
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light navigator mb-3 mt-2 ml-2 mr-2">
 			<a class="navbar-brand">Caleb Heckendorn</a>
@@ -37,7 +37,6 @@
 					  aria-controls="navbarNavAltMarkup">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav ml-auto">
 					<a class="nav-item nav-link" href="#about">About Me</a>
@@ -55,8 +54,8 @@
 			<h1 class="about-header">Caleb Heckendorn</h1>
 			<div class="row">
 				<div class="container-fluid col-md-6 col-sm-6 mw-50 me">
-					<img class="me d-block mx-auto my-auto img-fluid rounded mw-50" src="images/me.jpg" alt="me">
-					<p class="center">This is Caleb! He is a Deep Dive Coding graduate, and he is very skilled with Ipsum
+					<img class="me d-block mx-auto my-auto img-fluid rounded" src="images/me.jpg" alt="me">
+					<p class="center mb-3	">This is Caleb! He is a Deep Dive Coding graduate, and he is very skilled with Ipsum
 						Generators :P</p>
 				</div>
 			</div>
@@ -72,20 +71,40 @@
 							<li data-target="#my-slider" data-slide-to="0" class="active btn btn-secondary"></li>
 							<li data-target="#my-slider" data-slide-to="1" class="btn btn-secondary"></li>
 							<li data-target="#my-slider" data-slide-to="2" class="btn btn-secondary"></li>
-							<li data-target="#my-slider" data-slide-to="3" class="btn btn-secondary"></li>
 						</ol>
 						<!--Wrapper for slides-->
 						<div class="carousel-inner container-fluid">
+							<!--Nerd Nook-->
 							<div class="carousel-item active">
-								<img class="d-block mx-auto my-auto img-fluid rounded" src="images/image-coming-soon.jpg"
+								<img class="d-block mx-auto my-auto img-fluid rounded caroimage" src="images/nerd-nook.jpg"
 									  alt="soon"/>
 								<div class="carousel-caption">
 									<h4 class="carousel-text-color">Nerd Nook</h4>
-									<p class="carousel-text-color">Nerd Nook is a WebApp that connects and trains fellow
-										nerds.</p>
+									<p class="carousel-text-color">Nerd Nook is a WebApp that connects and trains fellow nerds.</p>
 									<a href="https://github.com/Caleb-M-Heckendorn">GitHub</a>
 								</div>
 							</div>
+							<!--Boot Strap-->
+							<div class="carousel-item">
+								<img class="d-block mx-auto my-auto img-fluid rounded caroimage" src="images/bootstrap-logo.png"
+									  alt="soon"/>
+								<div class="carousel-caption">
+									<h4 class="carousel-text-color">Bootstrap Challenge</h4>
+									<p class="carousel-text-color">Basic web page to help me learn Bootstrap</p>
+									<a href="https://github.com/Caleb-M-Heckendorn">GitHub</a>
+								</div>
+							</div>
+							<!--Prodev Site-->
+							<div class="carousel-item">
+								<img class="d-block mx-auto my-auto img-fluid rounded caroimage" src="images/image-coming-soon.jpg"
+									  alt="soon"/>
+								<div class="carousel-caption">
+									<h4 class="carousel-text-color">Professional Development</h4>
+									<p class="carousel-text-color">Professional Development page. Used this page to learn more CSS</p>
+									<a href="https://github.com/Caleb-M-Heckendorn">GitHub</a>
+								</div>
+							</div>
+
 						</div>
 						<!-- Controls  -->
 						<a class="carousel-control-prev" href="#my-slider" role="button" data-slide="prev">
@@ -100,7 +119,6 @@
 				</div>
 			</div>
 		</div>
-
 		<!--		Contact form-->
 		<section class="container-fluid contact pt-3 mw-50">
 			<h1 class="contact-header">Contact Me</h1>
@@ -108,7 +126,6 @@
 				<form class="form-horizontal well mw-50 form" action="php/mailer.php" method="post" id="contact">
 					<div class="row justify-content-center pt-2">
 						<div class="col-md-6 col-sm-8">
-
 							<!--Name input-->
 							<div class="form-group">
 								<div class="input-group">
@@ -121,14 +138,12 @@
 									<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 								</div>
 							</div>
-
 							<!--Subject  input-->
 							<div class="form-group">
 								<div class="input-group">
 									<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 								</div>
 							</div>
-
 							<!--Message input-->
 							<div class="form-group">
 								<div class="input-group">
@@ -138,13 +153,10 @@
 							</div>
 						</div>
 					</div>
-
-
 					<!--reCaptcha-->
-					<div class="row justify-content-center">
+					<div class="row justify-content-center pb-3">
 						<div class="g-recaptcha" data-sitekey="6LfXu20UAAAAAKHX1sDYBtWKMWEBnPSCK8mZDOdB"></div>
 					</div>
-
 					<!--Send and Reset buttons-->
 					<div class="center pb-3">
 						<button class="btn" type="submit" name="submit" id="submit" value="submit">Send</button>
@@ -159,7 +171,6 @@
 				</div>
 			</div>
 		</section>
-
 		<!--Icon links-->
 		<div class="container icon pb-3">
 			<div class="row justify-content-center center">
@@ -180,7 +191,6 @@
 					</span>
 			</div>
 		</div>
-
 		<!--Footer-->
 		<footer class="footer mt-10 mb-10 foot2">
 			<div class="container text-center">
