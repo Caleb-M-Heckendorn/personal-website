@@ -1,11 +1,13 @@
-.navigator{
+.navigator {
 	background-color: #dcdcdc;
 	color: black;
 	border-radius: 5px;
 }
-.about{
+
+.about {
 	background-color: #ffffff;
 }
+
 .about-header {
 	background-image: url(../images/about-header.jpg);
 	background-size: cover;
@@ -14,15 +16,19 @@
 	text-align: center;
 	color: white;
 }
-.me{
+
+.me {
 	width: 31rem;
 }
-.center{
+
+.center {
 	text-align: center;
 }
-.portfolio{
+
+.portfolio {
 	background-color: rgba(199, 199, 199, 0.55);
 }
+
 .portfolio-header {
 	background-image: url(../images/portfolio-banner.jpg);
 	background-size: cover;
@@ -31,30 +37,45 @@
 	text-align: center;
 	color: #595959;
 }
+
 .caro {
 	display: block;
 	margin: 10px auto;
 }
+
 .carousel-caption {
-	font-size: x-small;
+	font-size: xx-small;
 }
+
 .caroimage {
 	width: 31rem;
 }
+
 @media only screen
-and (min-width : 100px)
-and (max-width : 500px) {
-	.carousel-caption {
-		font-size: .5em;
+and (min-width: 100px)
+and (max-width: 500px) {
+	.carocap {
+		font-size: 1.2em;
 		padding-top: 20px;
 	}
 }
-.carousel-text-color{
-	color: #000;
+
+.nerd-nook-text {
+	color: #ffffff;
 }
-.contact{
+
+.bootstrap-text {
+	color: #808080;
+}
+
+.prodev-site-text {
+	color: #ffffff;
+}
+
+.contact {
 	background-color: #ffffff;
 }
+
 .contact-header {
 	background-image: url(../images/contact-banner.jpg);
 	background-size: cover;
@@ -63,25 +84,35 @@ and (max-width : 500px) {
 	text-align: center;
 	color: #595959;
 }
-.form{
+
+.form {
 	display: block;
 	margin: 10px auto;
 }
-button{
+
+.error {
+	text-align: center;
+	margin-right: 0%;
+}
+
+button {
 	background-color: #969696;
 	color: #000;
 }
-.icon i{
+
+.icon i {
 	color: black;
 	font-size: 1rem;
 	padding: 0 10px;
 }
+
 @media (min-width: 768px) {
 	.icon i {
 		font-size: 3.5rem;
 	}
 }
-.foot2{
+
+.foot2 {
 	background-color: #c7c7c7;
 	color: black;
 }

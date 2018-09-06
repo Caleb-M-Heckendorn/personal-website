@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function() {
 
 	/**
 	 * jQuery Validate Function
@@ -66,6 +66,8 @@ $(document).ready(function(){
 			})
 		}
 
-	});/* end validate function here */
+	});
+	/* end validate function here */
 
-});/*end document.ready()*/
+});
+/*end document.ready()*/
