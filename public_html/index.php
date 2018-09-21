@@ -38,6 +38,7 @@
 					<a class="nav-item nav-link" href="https://www.linkedin.com/in/caleb-m-heckendorn-85518b164/">LinkedIn</a>
 					<a class="nav-item nav-link" href="https://github.com/Caleb-M-Heckendorn">GitHub</a>
 					<a class="nav-item nav-link" href="https://twitter.com/CalebHeckendorn">Twitter</a>
+					<a class="nav-item nav-link" href="Caleb%20Heckendorn%20Resume.pdf">Resume</a>
 				</div>
 			</div>
 		</nav>
