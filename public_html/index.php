@@ -54,7 +54,7 @@
 						to grow in my coding knowledge as well as using my creative abilities to provide clients with websites
 						that meet their ever changing needs in the business world. Please feel free to check out the links and
 						contact me anytime.</p>
-					<p class="center">My key languages are: HTML | CSS | BootStrap | PHP | Angular | MySQL | JavaScript </p>
+					<p class="center">My key languages are: HTML | CSS | BootStrap | PHP | MySQL | JavaScript </p>
 				</div>
 			</div>
 		</div>
